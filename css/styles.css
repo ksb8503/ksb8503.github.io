@@ -1,0 +1,750 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Source+Sans+3&family=Khula&display=swap');
+
+nav {
+    padding-top: 2rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.nav-item {
+    font-family: "Source Sans 3";
+    font-size: 16pt;
+}
+.navbar-nav li {
+    padding-bottom: .5rem;
+    padding-left: 1.2rem;
+}
+.navbar-nav li a {
+    color: rgb(242,242,242);
+}
+.navbar-nav li a:hover {
+    color: rgb(6,157,117);
+}
+.navbar-nav li a:focus {
+    color: rgb(6,157,117);
+}
+.bg-dark {
+    background-color: rgb(6, 13, 15) !important;
+}
+.navbar-toggler-icon {
+    background-image: url(/img/menu-icon.png);
+    width: 3rem;
+    height:3rem;
+    display: flex !important;
+    justify-content: center !important;
+}
+.navbar-toggler {
+    border: none;
+    margin-left: .6rem;
+}
+
+.index-main-grid {
+    display: grid;
+    grid-template-columns: 50%,50%;
+    grid-template-rows: 3fr, 1fr;
+    background-color: rgb(6, 13, 15);
+    padding-right: 1.5rem;
+    padding-left:1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.index-grid-item-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 300px;
+    background-image: url(/img/Blake-Epstein-38.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.index-grid-item-two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 300px;
+    background-image: url(/img/Blake-Epstein-13.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.index-grid-item-three {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 350px;
+    background-image: url(/img/Blake-Epstein-08.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1 {
+    font-family: "Bungee Shade";
+    color: rgb(6,157,117);
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.gallery-page {
+    background-color:rgb(6, 13, 15); 
+    color: rgb(242,242,242);
+    padding: 10%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(13, 75px);
+}
+
+.gallery-one {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url(/img/one.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(/img/two.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-three {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-image: url(/img/three.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-four {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/img/four.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery-five {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-image: url(/img/five.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-six {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url(/img/six.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-seven {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    background-image: url(/img/seven.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-eight {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-image: url(/img/eight.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-nine {
+    grid-column: 3/4;
+    grid-row: 4/6;
+    background-image: url(/img/nine.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-ten {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-image: url(/img/ten.png);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-eleven {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    background-image: url(/img/eleven.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.gallery-twelve {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    background-image: url(/img/twelve.png);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.gallery-thirteen {
+    grid-column: 1/2;
+    grid-row: 7/9;
+    background-image: url(/img/thirteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-fourteen {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    background-image: url(/img/fourteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-fifteen {
+    grid-column: 3/4;
+    grid-row: 7/9;
+    background-image: url(/img/fifteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-sixteen {
+    grid-column: 1/2;
+    grid-row: 9/11;
+    background-image: url(/img/sixteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-seventeen {
+    grid-column: 2/3;
+    grid-row: 8/10;
+    background-image: url(/img/seventeen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-eighteen{
+    grid-column: 3/4;
+    grid-row: 9/11;
+    background-image: url(/img/eighteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-nineteen {
+    grid-column: 1/2;
+    grid-row: 11/12;
+    background-image: url(/img/nineteen.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty {
+    grid-column: 2/3;
+    grid-row: 10/11;
+    background-image: url(/img/twenty.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty-one {
+    grid-column: 3/4;
+    grid-row: 11/12;
+    background-image: url(/img/twenty-one.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty-two {
+    grid-column: 1/2;
+    grid-row: 12/14;
+    background-image: url(/img/twenty-two.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty-three {
+    grid-column: 2/3;
+    grid-row: 11/13;
+    background-image: url(/img/twenty-three.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty-four {
+    grid-column: 3/4;
+    grid-row: 12/14;
+    background-image: url(/img/twenty-four.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.gallery-twenty-five {
+    grid-column: 2/3;
+    grid-row: 13/14;
+    background-image: url(/img/twenty-five.jpeg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about-page p {
+    padding-top: 1rem;
+    font-size: 14pt;
+}
+
+.about-page{
+    background-color:rgb(6, 13, 15); 
+    color: rgb(242,242,242);
+    padding: 10%;
+    font-family: "Khula";
+    text-align: center;
+}
+
+.social-media-container{
+    display: grid;
+    grid-template-columns: 30%, 30%;
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.social-media-container h3 {
+    font-size: 12pt;
+    font-family: "Source Sans 3";
+    font-weight: bold;
+}
+
+.ig-icon {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    place-self: center;
+}
+
+.ig-handle {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    place-self: center;
+}
+
+.yt-icon {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    place-self: center;
+}
+
+.yt-handle {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    place-self: center;
+}
+
+.services-page {
+    background-color:rgb(6, 13, 15); 
+    color: rgb(242,242,242);
+    padding: 10%;
+}
+.services-page p {
+    line-height: 1.15;
+    font-family: "Khula";
+    font-size: 14pt;
+    text-align: center;
+}
+
+.services-page h4 {
+    font-family: "Source Sans 3";
+    font-size: 18pt;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 250px);
+    gap: 10px;
+}
+.services-grid-item-one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(/img/Blake-Epstein-32.jpg);
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services-grid-item-two{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    place-self: center;
+}
+
+.services-grid-item-three {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    place-self: center;
+}
+
+.services-grid-item-four {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(/img/Blake-Epstein-36.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contact-page {
+    background-color:rgb(6, 13, 15); 
+    color: rgb(242,242,242);
+    padding: 10%; 
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background-color:rgb(6, 13, 15); 
+}
+
+.contact-item-one {
+    width: 50%;
+    align-self: center;
+}
+
+.contact-item-two {
+    width: 100%;
+}
+
+form p {
+    font-family: "Khula";
+    font-size: 14pt;
+}
+
+.input-style {
+    width: 100%;
+    height: 32px;
+    color: rgb(94, 94, 94);
+    outline-color: rgb(6,157,117);
+}
+
+button {
+    text-align: center;
+    color: rgb(6, 13, 15) !important;
+    background-color: rgb(6,157,117);
+    width: 100%;
+    height: 50px;
+    font-family: 'Bungee Shade';
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+button:hover {
+    background-color: rgb(6, 13, 15) !important;
+    color:rgb(6,157,117) !important;
+}
+
+button:focus {
+    background-color: rgb(6, 13, 15) !important;
+    color:rgb(6,157,117) !important;
+}
+
+footer {
+    width: 100%;
+    height: 6rem;
+    background-color:rgb(6, 13, 15);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    font-family: "Source Sans 3";
+    color: rgb(242,242,242);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 15%, 70%, 15%;
+    grid-template-rows: 1fr, 1fr;
+}
+
+.footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+.footer-phone {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+}
+.footer-email {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: end;
+}
+
+@media screen and (min-width:768px) {
+    .index-main-grid {
+        display: grid;
+        grid-template-columns: 50%,50%;
+        grid-template-rows: 3fr, 1fr;
+        background-color: rgb(6, 13, 15);
+        padding-right: 3rem;
+        padding-left:3rem;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    
+    .index-grid-item-one {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 400px;
+        background-image: url(/img/Blake-Epstein-38.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+    
+    .index-grid-item-two {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 400px;
+        background-image: url(/img/Blake-Epstein-13.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .index-grid-item-three {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 450px;
+        background-image: url(/img/Blake-Epstein-08.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        grid-template-rows: repeat(13, 150px);
+    } 
+    p {
+        font-size: 16pt;
+    }
+    .social-media-container h3 {
+        font-size: 16pt;
+        font-family: "Source Sans 3";
+        font-weight: bold;
+    }
+    .social-media-container{
+        padding-right: 10%;
+        padding-left: 10%;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 500px);
+    gap: 5px;
+}
+.services-grid-item-one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(/img/Blake-Epstein-32.jpg);
+    background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.services-grid-item-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    place-self: center;
+}
+
+.services-grid-item-three {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    place-self: center;
+}
+
+.services-grid-item-four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(/img/Blake-Epstein-36.jpg);
+    background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+form p {
+    font-size: 16pt;
+}
+
+button {
+    font-size: 20pt;
+}
+
+.input-style {
+    height: 38px;
+}
+
+}
+@media screen and (min-width:1024px) {
+    .index-main-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: auto;
+        background-color: rgb(6, 13, 15);
+        padding: 5rem;
+    }
+    
+    .index-grid-item-one {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 1/2;
+        height: 600px;
+        background-image: url(/img/Blake-Epstein-38.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+    
+    .index-grid-item-two {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row: 1/2;
+        height: 600px;
+        background-image: url(/img/Blake-Epstein-13.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .index-grid-item-three {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 1/2;
+        height: 600px;
+        background-image: url(/img/Blake-Epstein-08.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        grid-template-rows: repeat(13, 250px);
+    }
+    .about-page p {
+        font-size: 20pt;
+    }
+    .social-media-container h3 {
+        font-size: 20pt;
+        font-family: "Source Sans 3";
+        font-weight: bold;
+    }
+    .social-media-container{
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .services-page p{
+        font-size: 20pt;
+    }
+
+    .services-page h4 {
+        font-size: 24pt;
+    }
+
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 500px);
+        gap: 5px;
+    }
+
+    .services-grid-item-one {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(/img/Blake-Epstein-32.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .services-grid-item-two{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        place-self: center;
+    }
+    
+    .services-grid-item-three {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        place-self: center;
+    }
+    
+    .services-grid-item-four {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-image: url(/img/Blake-Epstein-36.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    
+    .contact-item-one {
+        width: 40%;
+        align-self: center;
+    }
+    
+    .contact-item-two {
+        width: 60%;
+        align-self: center;
+    }
+
+    form p {
+        font-size: 18pt;
+    }
+    
+    button {
+        font-size: 22pt;
+    }
+    
+    .input-style {
+        height: 40px;
+    }
+}

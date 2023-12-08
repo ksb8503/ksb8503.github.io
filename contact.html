@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Blake Epstein Photography</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-wrap" href="index.html"><img src="img/website-logo.png" height="137" alt="Animated raccoon holding camera."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" title="menu icon"></span>
+            </button>
+        <div class="collapse navbar-collapse show" id="navbarBasic">
+            <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="gallery.html">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="services.html">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <div class="contact-page">
+            <h1> CONTACT </h1>
+        <div class="contact-container">
+            <div class="contact-item-one">
+                <img src="/img/Blake-Epstein-31.jpg" width="100%" alt="Blake holding and pointing a camera.">
+            </div>
+            <div class="contact-item-two">
+                <form> 
+                    <form action="put" method=".">
+                        <p> 
+                            <label for="Name"> Name </label>
+                            <input id="name" type="text" name="name" value="First Last" class="input-style">
+                        </p>
+                        <p> 
+                            <label for="Email"> Email </label>
+                            <input id="email" type="email" name="email" value="johndoe@example.com" class="input-style">
+                        </p>
+                        <p> 
+                            <label for="phone"> Phone Number </label>
+                            <input type="tel" id="phone" name="phone" value="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="input-style">
+                        </p>
+                        <p>
+                            <label for="Service"> What service are you interested in? </label>
+                            <select name="service" id="service" class="input-style">
+                            <option value="none" selected disabled hidden> Select an Option </option> 
+                            <option value="portrait"> Portrait Session (20 Photos) </option>
+                            <option value="headshot"> Professional Headshot (5 Headshots + 1 Digital File) </option>
+                            <option value="event-photo"> Event Coverage (Photography Only) </option>
+                            <option value="event-photo-video"> Event Coverage (Photo and Video) </option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="date"> Do you have a preferred date? </label>
+                            <input type="date" id="date" name="date" class="input-style">
+                        </p>
+                        <p>
+                        <label for="Note"> Additional Notes </label>
+                        <input id="note" type="text" name="note" value="Tell me more about what you're looking for!" class="input-style">
+                        </p>
+                        <p>
+                            <button type="submit"> SUBMIT </button>
+                        </p>
+                </form>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo-icon.png" height="60" alt="Animated raccoon holding camera."> 
+            </div>
+            <div class="footer-phone">
+                <h5> <img src="img/phone-icon.png" height="20px" alt="Phone icon."> +1 (704) 832-4012 </h5>
+            </div>
+            <div class="footer-email">
+                <h5> <img src="img/email-icon.png" height="20px" alt="Email icon."> bepisblake@gmail.com </h5>
+            </div>
+        </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
